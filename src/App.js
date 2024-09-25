@@ -2,9 +2,13 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <p>Hello Redux</p>
-    </div>
+    <>
+      <div className="App">
+        Count
+      </div>
+      <button>increment +</button>
+      <button>decrement -</button>
+    </>
   );
 }
 
