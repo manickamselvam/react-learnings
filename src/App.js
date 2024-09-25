@@ -1,13 +1,12 @@
 import './App.css';
+import Counter from './features/counter/Counter';
 
 function App() {
   return (
     <>
       <div className="App">
-        Count
+        <Counter></Counter>
       </div>
-      <button>increment +</button>
-      <button>decrement -</button>
     </>
   );
 }
