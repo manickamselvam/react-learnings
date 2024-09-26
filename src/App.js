@@ -1,10 +1,13 @@
 import './App.css';
+import Counter from './features/counter/Counter';
 
 function App() {
   return (
-    <div className="App">
-      <p>Hello Redux</p>
-    </div>
+    <>
+      <div className="App">
+        <Counter></Counter>
+      </div>
+    </>
   );
 }
 
